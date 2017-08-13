@@ -1,7 +1,7 @@
 # gulpSassCompiler
 Gulp Sass/Scss Compiler (autoprefix, sourcemaps, minify, file-rename, browser-sync)
 
-# gulpfilejs
+# gulpfile.js
 ```javascript
   var gulp             = require('gulp'),
       sass             = require('gulp-sass'),
