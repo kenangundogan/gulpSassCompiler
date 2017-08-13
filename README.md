@@ -3,11 +3,7 @@ Gulp Sass/Scss Compiler (autoprefix, sourcemaps, minify, file-rename, browser-sy
 
 # gulpfilejs
 ```javascript
-if (isAwesome){
-  return true
-}
-```
-var gulp             = require('gulp'),
+  var gulp             = require('gulp'),
     sass             = require('gulp-sass'),
     autoprefixer     = require('gulp-autoprefixer'),
     sourcemaps       = require('gulp-sourcemaps'),
@@ -66,3 +62,5 @@ gulp.task('browser-sync', function(){
 
 // gulp default (sass, minify-css, browser-sync) method
 gulp.task('default', ['sass', 'minify-css', 'browser-sync']);
+
+```
