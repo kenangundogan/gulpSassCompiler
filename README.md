@@ -2,12 +2,17 @@
 Gulp Sass/Scss Compiler (autoprefix, sourcemaps, minify, file-rename, browser-sync)
 
 
+## Install Nodejs
+[Node.js](https://nodejs.org/)
+
+
 
 ## Install Gulp
 ```
 $npm install -g gulp
-. $npm gulp -v
+    . and version check $npm gulp -v
 ```
+
 
 
 #### Install Gulp Plugin
