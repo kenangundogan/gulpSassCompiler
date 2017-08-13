@@ -4,7 +4,7 @@ Gulp Sass/Scss Compiler (autoprefix, sourcemaps, minify, file-rename, browser-sy
 
 
 ## Install Gulp
-```javascript
+```
 $npm install -g gulp
 npm gulp -v
 ```
