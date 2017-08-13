@@ -1,0 +1,7 @@
+
+// flex center
+@mixin flexCenter($value-d:flex, $value-jc:center, $value-ai:center){
+  display: $value-d;
+  justify-content: $value-jc;
+  align-items: $value-ai;
+}
