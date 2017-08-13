@@ -44,6 +44,7 @@ $npm install -g gulp
 </pre>
 
 ## gulpfile.js
+<b>Variable</b>
 ```javascript
   var gulp             = require('gulp'),
       sass             = require('gulp-sass'),
@@ -52,9 +53,10 @@ $npm install -g gulp
       minifyCss        = require('gulp-minify-css'),
       rename           = require('gulp-rename'),
       browserSync      = require('browser-sync').create();
+```
 
-
-
+<b>Sass Function</b>
+```javascript
 gulp.task('sass', function(){
     // sass directory
     return gulp.src('./sass/*scss')
@@ -70,8 +72,10 @@ gulp.task('sass', function(){
             // watch file
             gulp.watch('./sass/*.scss', ['sass']);
 });
+```
 
-
+<b>Minify Function</b>
+```javascript
 // minify css (merge + autoprefix + rename)
 gulp.task('minify-css', function(){
    return gulp.src('./css/style.css')
@@ -89,8 +93,10 @@ gulp.task('minify-css', function(){
             // watch file
             gulp.watch('./css/style.css', ['minify-css']);
 });
+```
 
-
+<b>Browser Tracking Function</b>
+```javascript
 // sass/css browser tracking
 gulp.task('browser-sync', function(){
     browserSync.init({
@@ -101,7 +107,10 @@ gulp.task('browser-sync', function(){
     // watch html
     gulp.watch('./*.html').on('change', browserSync.reload);
 });
+```
 
+<b>Default Compile</b>
+```javascript
 // gulp default (sass, minify-css, browser-sync) method
 gulp.task('default', ['sass', 'minify-css', 'browser-sync']);
 
