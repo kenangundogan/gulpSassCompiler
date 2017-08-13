@@ -3,22 +3,22 @@ Gulp Sass/Scss Compiler (autoprefix, sourcemaps, minify, file-rename, browser-sy
 
 
 
-## <div>Install Gulp <div>
+## Install Gulp
 ```javascript
 $npm install -g gulp
 npm gulp -v
 ```
 
 
-#### <div>Install Gulp Plugin<div>
-```javascript
-$npm install gulp-sass
-$npm install gulp-autoprefixer
-$npm install gulp-sourcemaps
-$npm install gulp-minify-css
-$npm install gulp-rename
-$npm install browser-sync
-```
+#### Install Gulp Plugin
+
+1. $npm install gulp-sass
+2. $npm install gulp-autoprefixer
+3. $npm install gulp-sourcemaps
+4. $npm install gulp-minify-css
+5. $npm install gulp-rename
+6. $npm install browser-sync
+
 
 
 # gulpfile.js
