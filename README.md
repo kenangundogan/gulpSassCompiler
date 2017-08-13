@@ -11,14 +11,14 @@ npm gulp -v
 
 
 #### Install Gulp Plugin
-
+```
 1. $npm install gulp-sass
 2. $npm install gulp-autoprefixer
 3. $npm install gulp-sourcemaps
 4. $npm install gulp-minify-css
 5. $npm install gulp-rename
 6. $npm install browser-sync
-
+```
 
 
 # gulpfile.js
