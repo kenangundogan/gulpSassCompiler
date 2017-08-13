@@ -47,7 +47,7 @@ $npm gulp -v
 <code>
 ├── css
     ├── style.css
-    ├── style.min.scss
+    ├── style.min.css
 </code>
 </pre>
 
