@@ -7,18 +7,18 @@ Gulp Sass/Scss Compiler (autoprefix, sourcemaps, minify, file-rename, browser-sy
 
 
 
-## Install Gulp
+## Install Gulp (Terminal)
 ```
 $npm install -g gulp
 ```
 
-### Gulp Version Check
+### Gulp Version Check (Terminal)
 ```
 $npm gulp -v
 ```
 
 
-#### Install Gulp Plugin
+#### Install Gulp Plugin (Terminal)
 ```
 1. $npm install gulp-sass
 2. $npm install gulp-autoprefixer
