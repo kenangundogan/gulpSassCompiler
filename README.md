@@ -55,7 +55,7 @@ $npm install -g gulp
       browserSync      = require('browser-sync').create();
 ```
 
-<b>Sass Function</b>
+<b>Sass (Function)</b>
 ```javascript
 gulp.task('sass', function(){
     // sass directory
@@ -74,7 +74,7 @@ gulp.task('sass', function(){
 });
 ```
 
-<b>Minify Function</b>
+<b>Minify (Function)</b>
 ```javascript
 // minify css (merge + autoprefix + rename)
 gulp.task('minify-css', function(){
@@ -95,7 +95,7 @@ gulp.task('minify-css', function(){
 });
 ```
 
-<b>Browser Tracking Function</b>
+<b>Browser Tracking (Function)</b>
 ```javascript
 // sass/css browser tracking
 gulp.task('browser-sync', function(){
