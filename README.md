@@ -21,6 +21,23 @@ $npm install -g gulp
 ```
 
 
+#Basic Usage
+<p> Source File </p>
+```
+├── scss
+    ├── style.scss
+       ├── _reset.scss
+       └── _defination.scss
+```
+<br>
+
+<p> Outuput File </p>
+```
+├── css
+    ├── style.css
+    ├── style.min.scss
+```
+
 # gulpfile.js
 ```javascript
   var gulp             = require('gulp'),
