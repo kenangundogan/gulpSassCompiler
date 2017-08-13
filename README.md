@@ -21,7 +21,7 @@ $npm install -g gulp
 ```
 
 
-# Basic Usage
+## Basic Usage
 <p> <b>Source File</b> </p>
 <pre>
 <code>
@@ -43,7 +43,7 @@ $npm install -g gulp
 </code>
 </pre>
 
-# gulpfile.js
+## gulpfile.js
 ```javascript
   var gulp             = require('gulp'),
       sass             = require('gulp-sass'),
