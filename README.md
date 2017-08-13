@@ -22,21 +22,26 @@ $npm install -g gulp
 
 
 #Basic Usage
-<p> Source File </p>
-```
+<p> <b>Source File</b> </p>
+<pre>
+<code>
 ├── scss
     ├── style.scss
        ├── _reset.scss
        └── _defination.scss
-```
+</code>
+</pre>
+
 <br>
 
-<p> Outuput File </p>
-```
+<p> <b>Outuput File</b> </p>
+<pre>
+<code>
 ├── css
     ├── style.css
     ├── style.min.scss
-```
+</code>
+</pre>
 
 # gulpfile.js
 ```javascript
