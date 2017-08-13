@@ -2,7 +2,11 @@
 Gulp Sass/Scss Compiler (autoprefix, sourcemaps, minify, file-rename, browser-sync)
 
 # gulpfilejs
-
+```javascript
+if (isAwesome){
+  return true
+}
+```
 var gulp             = require('gulp'),
     sass             = require('gulp-sass'),
     autoprefixer     = require('gulp-autoprefixer'),
