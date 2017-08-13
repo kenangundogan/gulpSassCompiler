@@ -93,10 +93,10 @@ gulp.task('minify-css', function(){
                 browsers: ['last 15 versions'],
                 cascade: false
             }))
-            // minify css output directory
-            .pipe(gulp.dest('./css'))
             // minify css rename
             .pipe(rename('style.min.css'))
+            // minify css output directory
+            .pipe(gulp.dest('./css'))
             // browser sync
             .pipe(browserSync.reload({stream: true})),
             // watch file
