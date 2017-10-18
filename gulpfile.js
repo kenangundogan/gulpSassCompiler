@@ -2,7 +2,7 @@ var gulp             = require('gulp'),
     sass             = require('gulp-sass'),
     autoprefixer     = require('gulp-autoprefixer'),
     sourcemaps       = require('gulp-sourcemaps'),
-    minifyCss        = require('gulp-minify-css'),
+    minifyCss        = require('gulp-clean-css'),
     rename           = require('gulp-rename'),
     browserSync      = require('browser-sync').create();
 
