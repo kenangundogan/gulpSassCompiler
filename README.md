@@ -23,7 +23,7 @@ $npm gulp -v
 1. $npm install gulp-sass
 2. $npm install gulp-autoprefixer
 3. $npm install gulp-sourcemaps
-4. $npm install gulp-minify-css
+4. $npm install gulp-clean-css
 5. $npm install gulp-rename
 6. $npm install browser-sync
 ```
@@ -58,7 +58,7 @@ $npm gulp -v
       sass             = require('gulp-sass'),
       autoprefixer     = require('gulp-autoprefixer'),
       sourcemaps       = require('gulp-sourcemaps'),
-      minifyCss        = require('gulp-minify-css'),
+      minifyCss        = require('gulp-clean-css'),
       rename           = require('gulp-rename'),
       browserSync      = require('browser-sync').create();
 ```
